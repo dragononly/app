@@ -1,0 +1,64 @@
+{
+  "pages": [
+    {
+      "id": "首页",
+      "isDefault": true
+    },
+    {
+      "id": "MAC",
+      "isDefault": false
+    },
+    {
+      "id": "w必备",
+      "isDefault": false
+    },
+    {
+      "id": "注册",
+      "isDefault": false
+    },
+    {
+      "id": "登录",
+      "isDefault": false
+    },
+    {
+      "id": "个人中心",
+      "isDefault": false
+    },
+    {
+      "id": "需求提交",
+      "isDefault": false
+    },
+    {
+      "id": "联系我们",
+      "isDefault": false
+    },
+    {
+      "id": "管理中心",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "color": "#FFEBFB",
+  "icon": "hospital",
+  "chartTheme": "walden",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1400px",
+    "showNavigationBar": true
+  },
+  "isManualUpdate": false,
+  "viewerLayout": "{\"color\":\"#60a5fa\",\"logoUrl\":\"https://dx.moono.vip:9091/auto/%E8%BD%AF%E4%BB%B6%20%283%29.png\",\"name\":\"windows资源分享站\",\"treeData\":[{\"title\":\"首页\",\"pageId\":\"642fe9f9e00ca964d883abe4\",\"isPage\":true,\"icon\":\"wap-home-o\"},{\"title\":\"MAC\",\"pageId\":\"642fe9f9e00ca964d883abe5\",\"isPage\":true,\"icon\":\"desktop-o\"},{\"title\":\"联系我们\",\"pageId\":\"6433cb9e08725a418dad7b8d\",\"isPage\":true,\"icon\":\"service-o\"},{\"title\":\"注册\",\"pageId\":\"6430cbae08725a418dad7b1d\",\"isPage\":true},{\"title\":\"登录\",\"pageId\":\"6431044b08725a418dad7b22\",\"isPage\":true},{\"title\":\"个人中心\",\"pageId\":\"64337b8f08725a418dad7b50\",\"isPage\":true},{\"title\":\"需求提交\",\"pageId\":\"6433c28f08725a418dad7b86\",\"isPage\":true},{\"title\":\"管理中心\",\"pageId\":\"648fc3d615170216cefb2c47\",\"isPage\":true},{\"title\":\"windows\",\"expanded\":true,\"children\":[{\"title\":\"推荐\",\"pageId\":\"642fe9f9e00ca964d883abea\",\"isPage\":true},{\"title\":\"w必备\",\"pageId\":\"642fe9f9e00ca964d883abe8\",\"isPage\":true}]}],\"outsiderTree\":[{\"title\":\"最新发布\",\"pageId\":\"642fe9f9e00ca964d883abe6\",\"isPage\":true}]}",
+  "deleted": false
+}
