@@ -35,6 +35,10 @@
     {
       "id": "管理中心",
       "isDefault": false
+    },
+    {
+      "id": "w推荐",
+      "isDefault": false
     }
   ],
   "viewMode": false,

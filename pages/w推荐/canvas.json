@@ -1,6 +1,6 @@
 {
   "unpublishedPage": {
-    "name": "w必备",
+    "name": "w推荐",
     "slug": "w",
     "layouts": [
       {
@@ -172,18 +172,34 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('windows', {}, 'SAME_WINDOW')}}",
+                          "onClick": "{{navigateTo('w推荐', {}, 'SAME_WINDOW')}}",
                           "iconColor": "#16a34a",
                           "textColor": "#71717a"
                         },
                         "menuItem3xv46iveti": {
                           "id": "menuItem3xv46iveti",
                           "index": 1,
-                          "label": "激活工具",
+                          "label": "必备",
                           "widgetId": "e18d1ohhrj",
                           "isDisabled": false,
                           "isVisible": true,
-                          "onClick": "{{navigateTo('实用工具', {}, 'SAME_WINDOW')}}"
+                          "onClick": "{{navigateTo('w必备', {}, 'SAME_WINDOW')}}"
+                        },
+                        "menuItemvzgt16ivxr": {
+                          "id": "menuItemvzgt16ivxr",
+                          "index": 2,
+                          "label": "设计",
+                          "widgetId": "ncdh2jg2ft",
+                          "isDisabled": false,
+                          "isVisible": true
+                        },
+                        "menuItempl2z9m71nu": {
+                          "id": "menuItempl2z9m71nu",
+                          "index": 3,
+                          "label": "开发",
+                          "widgetId": "m9rea5pixu",
+                          "isDisabled": false,
+                          "isVisible": true
                         }
                       },
                       "isVisible": true,
@@ -501,7 +517,7 @@
                       "triggeredItemView": "{{{}}}",
                       "widgetName": "List1",
                       "requiresFlatWidgetChildren": true,
-                      "listData": "{{finwbb.data}}",
+                      "listData": "{{finwintuijian.data}}",
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
@@ -545,7 +561,6 @@
                         }
                       ],
                       "leftColumn": 1,
-                      "serverSidePagination": false,
                       "gridType": "vertical",
                       "enhancements": true,
                       "children": [
@@ -883,7 +898,6 @@
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisible": true,
                       "parentId": "5wz5ahods0",
-                      "totalRecordsCount": "100",
                       "hasMetaWidgets": true,
                       "renderMode": "CANVAS",
                       "isLoading": false,
@@ -933,8 +947,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "w必备_finwbb",
-              "name": "finwbb",
+              "id": "w推荐_finwintuijian",
+              "name": "finwintuijian",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
@@ -944,7 +958,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "w必备",
+        "id": "w推荐",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -955,5 +969,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "63be5d2460db881c9ea10816_63d773bcb6bee1621ac49784"
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490132515170216cefb2cca"
 }

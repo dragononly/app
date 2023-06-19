@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "findwinall",
+    "name": "finwbb",
     "datasource": {
       "name": "mongo",
       "pluginId": "mongo-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "首页",
+    "pageId": "w推荐",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -29,7 +29,7 @@
           }
         },
         "body": {
-          "data": "{\n  \"find\": \"app\",\n  \"filter\": {\n    \"download\": \"https://cloud.moono.vip:441/f/g9FX/%E8%BF%85%E9%9B%B7%E5%AE%BD%E5%B8%A6%E4%B8%8D%E9%99%90%E9%80%9F%E7%89%88%E6%9C%AC%EF%BC%88%E5%8B%BF%E7%82%B9%E4%BD%93%E9%AA%8C%E5%8A%A0%E9%80%9F%EF%BC%89.zip\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
+          "data": "{\n  \"find\": \"app\",\n  \"filter\": {\n    \"download\": \"https://cloud.moono.vip:441/f/7asj/office%202021%20ProPlus2021Retail.img\"\n  },\n  \"sort\": {\n    \"_id\": 1\n  },\n  \"limit\": 10\n}\n"
         },
         "collection": {
           "data": "app"
@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"首页\"}"
+            "data": "{\"type\":\"W必备\"}"
           },
           "limit": {
             "data": "4"
@@ -96,7 +96,7 @@
         }
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -107,7 +107,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "首页_findwinall",
+  "id": "w推荐_finwbb",
   "deleted": false,
-  "gitSyncId": "642fe9f9e00ca964d883abdb_6490015b15170216cefb2c71"
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490132515170216cefb2ccc"
 }

@@ -123,7 +123,7 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('windows', {}, 'SAME_WINDOW')}}",
+                          "onClick": "{{navigateTo('w推荐', {}, 'SAME_WINDOW')}}",
                           "iconColor": "#16a34a",
                           "textColor": "#71717a"
                         },
@@ -134,7 +134,7 @@
                           "widgetId": "e18d1ohhrj",
                           "isDisabled": false,
                           "isVisible": true,
-                          "onClick": "{{navigateTo('实用工具', {}, 'SAME_WINDOW')}}"
+                          "onClick": "{{navigateTo('w必备', {}, 'SAME_WINDOW')}}"
                         },
                         "menuItemim8l616x7r": {
                           "id": "menuItemim8l616x7r",
@@ -1032,7 +1032,7 @@
                       "triggeredItemView": "{{{}}}",
                       "widgetName": "List2",
                       "requiresFlatWidgetChildren": true,
-                      "listData": "{{findall.data}}",
+                      "listData": "{{findallmac.data}}",
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
@@ -1461,6 +1461,14 @@
         },
         "layoutOnLoadActions": [
           [
+            {
+              "id": "首页_findallmac",
+              "name": "findallmac",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
             {
               "id": "首页_findwinall",
               "name": "findwinall",
