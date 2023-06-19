@@ -39,6 +39,14 @@
     {
       "id": "w推荐",
       "isDefault": false
+    },
+    {
+      "id": "w设计",
+      "isDefault": false
+    },
+    {
+      "id": "w开发",
+      "isDefault": false
     }
   ],
   "viewMode": false,

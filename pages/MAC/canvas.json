@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 1000,
           "containerStyle": "none",
           "snapRows": 58,
           "parentRowSpace": 1,
@@ -100,6 +100,12 @@
                         },
                         {
                           "key": "menuItems.menuItem3xv46iveti.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItemim8l616x7r.onClick"
+                        },
+                        {
+                          "key": "menuItems.menuItemohoe1ps2xp.onClick"
                         }
                       ],
                       "leftColumn": 16,
@@ -114,7 +120,7 @@
                       "isDeprecated": false,
                       "rightColumn": 28,
                       "menuVariant": "TERTIARY",
-                      "widgetId": "ylv05gochu",
+                      "widgetId": "pr4q2p3ovo",
                       "menuItems": {
                         "menuItem1": {
                           "label": "推荐",
@@ -123,24 +129,42 @@
                           "isVisible": true,
                           "isDisabled": false,
                           "index": 0,
-                          "onClick": "{{navigateTo('windows', {}, 'SAME_WINDOW')}}",
+                          "onClick": "{{navigateTo('w推荐', {}, 'SAME_WINDOW')}}",
                           "iconColor": "#16a34a",
                           "textColor": "#71717a"
                         },
                         "menuItem3xv46iveti": {
                           "id": "menuItem3xv46iveti",
                           "index": 1,
-                          "label": "激活工具",
+                          "label": "必备",
                           "widgetId": "e18d1ohhrj",
                           "isDisabled": false,
                           "isVisible": true,
-                          "onClick": "{{navigateTo('实用工具', {}, 'SAME_WINDOW')}}"
+                          "onClick": "{{navigateTo('w必备', {}, 'SAME_WINDOW')}}"
+                        },
+                        "menuItemim8l616x7r": {
+                          "id": "menuItemim8l616x7r",
+                          "index": 2,
+                          "label": "设计",
+                          "widgetId": "w4jqx14sit",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('w设计', {}, 'SAME_WINDOW')}}"
+                        },
+                        "menuItemohoe1ps2xp": {
+                          "id": "menuItemohoe1ps2xp",
+                          "index": 3,
+                          "label": "开发",
+                          "widgetId": "1a5kgzy3nx",
+                          "isDisabled": false,
+                          "isVisible": true,
+                          "onClick": "{{navigateTo('w开发', {}, 'SAME_WINDOW')}}"
                         }
                       },
                       "isVisible": true,
                       "label": "Windows",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -192,7 +216,7 @@
                       "isDeprecated": false,
                       "rightColumn": 16,
                       "menuVariant": "TERTIARY",
-                      "widgetId": "ugj4epnwwf",
+                      "widgetId": "ylkepmkj4a",
                       "menuItems": {
                         "menuItem1": {
                           "label": "推荐",
@@ -209,7 +233,7 @@
                       "isVisible": true,
                       "label": "Mac",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -222,8 +246,9 @@
                       "resetFormOnClick": false,
                       "boxShadow": "none",
                       "widgetName": "Button2",
-                      "onClick": "{{navigateTo('个人中心', {}, 'SAME_WINDOW')}}",
+                      "onClick": "{{jump.myFun1()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "dynamicPropertyPathList": [],
                       "displayName": "按钮",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
                       "searchTags": [
@@ -255,17 +280,17 @@
                           "key": "text"
                         }
                       ],
-                      "text": "欢迎:{{appsmith.store.user}}",
+                      "text": "欢迎:{{appsmith.store.user || \"登录\"}}",
                       "isDisabled": false,
                       "key": "fgvkz84am4",
                       "isDeprecated": false,
                       "rightColumn": 63,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "tbzv5z7b4w",
+                      "widgetId": "6aius8f8n4",
                       "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "disabledWhenInvalid": false,
@@ -310,11 +335,11 @@
                       "isDeprecated": false,
                       "rightColumn": 4,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "ax598jg3os",
+                      "widgetId": "pwid1xugx6",
                       "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "disabledWhenInvalid": false,
@@ -347,19 +372,19 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 42,
+                      "leftColumn": 45,
                       "dynamicBindingPathList": [],
                       "text": "联系我们",
                       "isDisabled": false,
                       "key": "xw2xm1f1u2",
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 52,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "7hiw98e96z",
+                      "widgetId": "pgfqk8302l",
                       "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "disabledWhenInvalid": false,
@@ -392,7 +417,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 30,
+                      "leftColumn": 32,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -402,13 +427,13 @@
                       "isDisabled": false,
                       "key": "a471ispkj3",
                       "isDeprecated": false,
-                      "rightColumn": 40,
+                      "rightColumn": 42,
                       "isDefaultClickDisabled": true,
-                      "widgetId": "0bsokmug8d",
+                      "widgetId": "jz4vpi39gu",
                       "isVisible": true,
                       "recaptchaType": "V3",
                       "version": 1,
-                      "parentId": "wn1v8cp210",
+                      "parentId": "gaiex9f234",
                       "renderMode": "CANVAS",
                       "isLoading": false,
                       "disabledWhenInvalid": false,
@@ -421,11 +446,11 @@
                   "isDeprecated": false,
                   "rightColumn": 93.984375,
                   "detachFromLayout": true,
-                  "widgetId": "wn1v8cp210",
+                  "widgetId": "gaiex9f234",
                   "containerStyle": "none",
                   "isVisible": true,
                   "version": 1,
-                  "parentId": "9up2s65d5x",
+                  "parentId": "8s4wtgbih9",
                   "renderMode": "CANVAS",
                   "isLoading": false
                 }
@@ -436,7 +461,7 @@
               "isDeprecated": false,
               "rightColumn": 64,
               "dynamicHeight": "FIXED",
-              "widgetId": "9up2s65d5x",
+              "widgetId": "8s4wtgbih9",
               "containerStyle": "card",
               "isVisible": true,
               "version": 1,
@@ -462,8 +487,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 8,
-              "bottomRow": 99,
+              "topRow": 9,
+              "bottomRow": 100,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -471,7 +496,7 @@
               "animateLoading": true,
               "parentColumnSpace": 19.21875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 0,
+              "leftColumn": 1,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
