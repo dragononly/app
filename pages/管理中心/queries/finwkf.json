@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "finwbb",
+    "name": "finwkf",
     "datasource": {
       "name": "mongo",
       "pluginId": "mongo-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "w设计",
+    "pageId": "管理中心",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"W必备\"}"
+            "data": "{\"type\":\"W设计\"}"
           },
           "limit": {
             "data": "10"
@@ -107,7 +107,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "w设计_finwbb",
+  "id": "管理中心_finwkf",
   "deleted": false,
-  "gitSyncId": "642fe9f9e00ca964d883abdb_6490167515170216cefb2cd6"
+  "gitSyncId": "642fe9f9e00ca964d883abdb_649017a715170216cefb2cdf"
 }

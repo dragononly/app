@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"W必备\"}"
+            "data": "{\"type\":\"M必备\"}"
           },
           "limit": {
             "data": "10"

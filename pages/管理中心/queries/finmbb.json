@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mongo-plugin",
   "unpublishedAction": {
-    "name": "finwbb",
+    "name": "finmbb",
     "datasource": {
       "name": "mongo",
       "pluginId": "mongo-plugin",
@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "w开发",
+    "pageId": "管理中心",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"W必备\"}"
+            "data": "{\"type\":\"M必备\"}"
           },
           "limit": {
             "data": "10"
@@ -107,7 +107,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "w开发_finwbb",
+  "id": "管理中心_finmbb",
   "deleted": false,
-  "gitSyncId": "642fe9f9e00ca964d883abdb_6490168015170216cefb2cdb"
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490188415170216cefb2ce5"
 }

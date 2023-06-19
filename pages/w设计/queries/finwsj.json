@@ -13,7 +13,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "管理中心",
+    "pageId": "w设计",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"W开发\"}"
+            "data": "{\"type\":\"W设计\"}"
           },
           "limit": {
             "data": "10"
@@ -107,7 +107,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "管理中心_finwsj",
+  "id": "w设计_finwsj",
   "deleted": false,
-  "gitSyncId": "642fe9f9e00ca964d883abdb_64900e8e15170216cefb2c79"
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490179615170216cefb2cdd"
 }

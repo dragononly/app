@@ -526,7 +526,7 @@
                       "triggeredItemView": "{{{}}}",
                       "widgetName": "List1",
                       "requiresFlatWidgetChildren": true,
-                      "listData": "{{finwbb.data}}",
+                      "listData": "{{finwsj.data}}",
                       "isCanvas": true,
                       "displayName": "List",
                       "iconSVG": "/static/media/icon.9925ee17dee37bf1ba7374412563a8a7.svg",
@@ -958,8 +958,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "w设计_finwbb",
-              "name": "finwbb",
+              "id": "w设计_finwsj",
+              "name": "finwsj",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
