@@ -60,7 +60,7 @@
         },
         "find": {
           "query": {
-            "data": "{\"type\":\"W设计\"}"
+            "data": "{\"type\":\"W开发\"}"
           },
           "limit": {
             "data": "10"
