@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "jump",
+    "pageId": "MAC",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "MAC_jump",
+  "deleted": false,
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490235c15170216cefb2ced"
+}

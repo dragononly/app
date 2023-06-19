@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "jump",
+    "pageId": "联系我们",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "联系我们_jump",
+  "deleted": false,
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490236d15170216cefb2cfd"
+}

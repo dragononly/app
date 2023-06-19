@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "jump",
+    "pageId": "需求提交",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "需求提交_jump",
+  "deleted": false,
+  "gitSyncId": "642fe9f9e00ca964d883abdb_6490236915170216cefb2cf9"
+}
