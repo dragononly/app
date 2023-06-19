@@ -1930,8 +1930,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 5,
-              "bottomRow": 12,
+              "topRow": 0,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -4271,8 +4271,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 62,
-              "bottomRow": 132,
+              "topRow": 59,
+              "bottomRow": 129,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
@@ -5292,10 +5292,10 @@
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "originalTopRow": 62,
+              "originalTopRow": 59,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 132,
+              "originalBottomRow": 129,
               "minDynamicHeight": 10
             },
             {
@@ -5311,8 +5311,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 12,
-              "bottomRow": 62,
+              "topRow": 8,
+              "bottomRow": 58,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,

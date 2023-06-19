@@ -38,8 +38,8 @@
                 "group",
                 "container"
               ],
-              "topRow": 5,
-              "bottomRow": 12,
+              "topRow": 0,
+              "bottomRow": 7,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
